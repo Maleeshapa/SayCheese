@@ -1,0 +1,148 @@
+/* ------------------------------------------------------Home------------------------------------------------- */
+
+
+.carousel {
+    border-radius: 15px; /* Adjust the value to change the roundness */
+    overflow: hidden; /* Ensure that images don't overflow */
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/urwgrotesk');
+
+                
+nav{
+    font-family: 'URWGroteskWid', sans-serif;
+    font-size:large;
+}
+
+@import url('https://fonts.cdnfonts.com/css/lovelo');
+
+#homeh1{
+    font-family: 'Lovelo', sans-serif;
+    font-weight: 700;
+                                                
+}
+
+@import url('https://fonts.cdnfonts.com/css/debbie');
+
+.lead{
+    font-family: 'Debbie', sans-serif;
+    color: rgb(71, 71, 69);
+                                                
+}
+
+/* ----------------------------------------category----------------------------------------------- */
+
+@import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
+
+#categoryh1{
+    font-family: 'TT Norms Pro', sans-serif;
+                                            
+}
+
+
+
+/* ---------------------------------------------bokking------------------------------------------------- */
+
+
+@import url(https://db.onlinewebfonts.com/c/fc5af5b1d9bae562919ea723758601fd?family=P22+FLLW+Terracotta+W00+Alt);
+@font-face {
+    font-family: "P22 FLLW Terracotta W00 Alt";
+    src: url("https://db.onlinewebfonts.com/t/fc5af5b1d9bae562919ea723758601fd.eot");
+    src: url("https://db.onlinewebfonts.com/t/fc5af5b1d9bae562919ea723758601fd.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/fc5af5b1d9bae562919ea723758601fd.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/fc5af5b1d9bae562919ea723758601fd.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/fc5af5b1d9bae562919ea723758601fd.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/fc5af5b1d9bae562919ea723758601fd.svg#P22 FLLW Terracotta W00 Alt")format("svg");
+}
+#name{
+    font-family: "P22 FLLW Terracotta W00 Alt";
+    font-weight: 700;
+    font: size 45px;
+    
+
+}
+
+
+/* ---------------------------------------------------about---------------------------------------------- */
+
+@import url(https://db.onlinewebfonts.com/c/1dfd1a36e7738d56fae8fc12af318a56?family=Agrandir+Wide+Black);
+
+@font-face {
+    font-family: "Agrandir Wide Black";
+    src: url("https://db.onlinewebfonts.com/t/1dfd1a36e7738d56fae8fc12af318a56.eot");
+    src: url("https://db.onlinewebfonts.com/t/1dfd1a36e7738d56fae8fc12af318a56.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1dfd1a36e7738d56fae8fc12af318a56.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1dfd1a36e7738d56fae8fc12af318a56.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/1dfd1a36e7738d56fae8fc12af318a56.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1dfd1a36e7738d56fae8fc12af318a56.svg#Agrandir Wide Black")format("svg");
+}
+
+
+                            @import url('https://fonts.cdnfonts.com/css/atlane');
+
+                
+
+#nameAbout{
+    font-family: 'Atlane', sans-serif;
+    font-weight: 800;
+    
+                                                
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/hero-new');
+@import url('https://fonts.cdnfonts.com/css/bonechiller');
+       
+
+#aboutP{
+    font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+                                                                                    
+}
+
+
+@import url('https://fonts.cdnfonts.com/css/tt-norms-pro');
+
+h3{
+    font-family: 'TT Norms Pro', sans-serif;
+    color: #191919;                                            
+
+}
+
+
+/* ----------------------------------index transition--------------------------------- */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 1s ease forwards;
+}
+
+/* ---------------------------------category transition------------------------------------- */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 1s ease forwards;
+}

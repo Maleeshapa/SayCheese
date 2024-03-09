@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Cheese!</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css.css">
+    <style>
+        body {
+            background-image: url('/images/About.svg');
+            height: auto;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- font cdn -->
+    <link href="https://fonts.cdnfonts.com/css/urwgrotesk" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lovelo" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/debbie" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/fc5af5b1d9bae562919ea723758601fd?family=P22+FLLW+Terracotta+W00+Alt" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                <div class="container">
+                    <a href="" class="navbar-brand"><img src="/images/Say Cheese! 2.png" alt="logo" style="width:130px"></a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Category.html" class="nav-link">Category</a>
+                            </li>
+                            <li class="nav-item "><a href="Gallery.html" class="nav-link disabled">Gallery</a></li>
+
+                            <li class="nav-item active">
+                                <a href="Booking.html" class="nav-link">Booking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="About.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search by Mobile no.">
+                                <button type="button" class="btn btn-secondary"><i class="bi bi-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+
+<hr>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 d-flex  align-items-center">
+                    <b><h1 id="name">Shashini<br> Rathnayake<br>  Photography</h1></b>
+                    <br>
+                    
+                </div>
+                <div class="col-md-5 mx-auto">
+                    <div class="border rounded p-4">
+                    <h3 >Hurry! Book Your Day.</h3>
+
+                    <form id="contactForm" name="contactForm" method="post">
+
+                        <div class="form-group">
+                          <label for="fullName">Full Name *</label>
+                          <input type="text" class="form-control" id="fullName" name="fullName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                          <label for="phoneNumber">Phone Number *</label>
+                          <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address *</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                          </div>
+                        
+                          
+                        <div class="form-group">
+                          <label for="photographyType">Photography Type *</label>
+                          <select class="form-control" id="photographyType" name="photographyType" required>
+                            <option value="">Select Photography Type</option>
+                            <option value="wedding">Wedding Photography</option>
+                            <option value="portrait">Portrait Photography</option>
+                            <option value="street">Street Photography</option>
+                          </select>
+                        </div>
+                      
+                        <div class="form-group">
+                          <label for="message">Message *</label>
+                          <textarea class="form-control" id="message" name="message" rows="2" ></textarea>
+                        </div>
+                      
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="reset" class="btn btn-secondary">Clear</button>
+                      </form>
+                      
+                </div>
+                </div>
+            </div>
+        </div>
+        
+       
+    
+</body>
+</html>
