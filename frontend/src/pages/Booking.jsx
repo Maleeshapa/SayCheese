@@ -42,7 +42,7 @@ function Booking() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8081/Booking', values)
+    axios.post('https://say-cheese-eta.vercel.app/Booking', values)
       .then(res => {
         console.log(res);
         setBookingStatus('success');
@@ -56,7 +56,7 @@ function Booking() {
 
   const sendEmail = () => {
     const { name, email, phone, nic, type, date, message } = values;
-    axios.post('http://localhost:8081/send-email', { name, email, phone, nic, type, date, message })
+    axios.post('https://say-cheese-eta.vercel.app/send-email', { name, email, phone, nic, type, date, message })
       .then(res => {
         console.log(res.data);
       })

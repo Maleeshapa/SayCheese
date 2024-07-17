@@ -15,7 +15,7 @@ const Gallery = () => {
     }, [cartItems]); // Watch for changes in cartItems to update the count
 
     const fetchData = () => {
-        axios.get('http://localhost:8081/product')
+        axios.get('https://say-cheese-eta.vercel.app/product')
             .then(res => setProducts(res.data))
             .catch(err => console.log(err));
     };

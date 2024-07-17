@@ -22,7 +22,7 @@ function Create() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8081/Booking', values)
+    axios.post('https://say-cheese-eta.vercel.app/Booking', values)
       .then(res => {
         console.log(res);
         navigate('/Dashboard');

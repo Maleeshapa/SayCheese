@@ -18,13 +18,13 @@ function Dashboard() {
   }, []);
 
   const fetchData = () => {
-    axios.get('http://localhost:8081/bookingdetails')
+    axios.get('https://say-cheese-eta.vercel.app/bookingdetails')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   };
 
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:8081/delete/${id}`)
+    axios.delete(`https://say-cheese-eta.vercel.app/delete/${id}`)
       .then(res => {
         console.log(res.data);
         fetchData(); // Fetch updated data after successful deletion

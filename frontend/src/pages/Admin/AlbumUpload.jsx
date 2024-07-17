@@ -17,7 +17,7 @@ function AlbumUpload() {
   }, []);
 
   const fetchData = () => {
-    axios.get('http://localhost:8081/bookingdetails')
+    axios.get('https://say-cheese-eta.vercel.app/bookingdetails')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   };

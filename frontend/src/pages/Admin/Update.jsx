@@ -18,7 +18,7 @@ function Update() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        axios.put('http://localhost:8081/update/' + id, { download })
+        axios.put('https://say-cheese-eta.vercel.app/update/' + id, { download })
             .then(res => {
                 console.log(res);
                 navigate('/AlbumUpload');

@@ -15,13 +15,13 @@ function ProductDetails() {
   }, []);
 
   const fetchData = () => {
-    axios.get('http://localhost:8081/product')
+    axios.get('https://say-cheese-eta.vercel.app/product')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   };
 
   const handleDelete = (Id) => {
-    axios.delete(`http://localhost:8081/product/delete/${Id}`)
+    axios.delete(`https://say-cheese-eta.vercel.app/product/delete/${Id}`)
       .then(res => {
         console.log(res.data);
         fetchData(); // Fetch updated data after successful deletion
