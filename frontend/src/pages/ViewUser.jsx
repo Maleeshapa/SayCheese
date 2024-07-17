@@ -11,7 +11,7 @@ function ViewUser() {
 
   useEffect(() => {
     const fetchData = () => {
-      axios.get(`https://say-cheese-eta.vercel.app/view/${email}`)
+      axios.get(`http://localhost:8081/view/${email}`)
         .then(res => {
           console.log(res);
           setBookingDetails(res.data);

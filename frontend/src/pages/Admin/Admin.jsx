@@ -12,7 +12,7 @@ const Admin = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post('https://say-cheese-eta.vercel.app/Admin', { email, password })
+    axios.post('http://localhost:8081/Admin', { email, password })
       .then(res => {
         console.log(res);
         if (res.data.message === "Logged In") {

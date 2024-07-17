@@ -17,7 +17,7 @@ function Users() {
   }, []);
 
   const fetchData = () => {
-    axios.get('https://say-cheese-eta.vercel.app/users')
+    axios.get('http://localhost:8081/users')
       .then(res => setData(res.data))
       .catch(err => console.log(err));
   };

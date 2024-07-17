@@ -20,7 +20,7 @@ function ProductAdd() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://say-cheese-eta.vercel.app/product', values)
+    axios.post('http://localhost:8081/product', values)
       .then(res => {
         console.log(res);
         navigate('/ProductDetails');

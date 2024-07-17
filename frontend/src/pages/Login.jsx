@@ -12,7 +12,7 @@ const Login = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         try {
-            axios.post('https://say-cheese-eta.vercel.app/Login', { email, nic })
+            axios.post('http://localhost:8081/Login', { email, nic })
                 .then(res => {
                     console.log(res);
                     if (res.data.message === "Logged In") {
